@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatHMT", "WhatHMT\WhatHMT.csproj", "{5439970C-EE33-472F-B140-6F20AB32A6E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatHMT.DA", "WhatHMT.DA\WhatHMT.DA.csproj", "{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5439970C-EE33-472F-B140-6F20AB32A6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5439970C-EE33-472F-B140-6F20AB32A6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5439970C-EE33-472F-B140-6F20AB32A6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
