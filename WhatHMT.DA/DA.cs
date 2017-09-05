@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace WhatHMT.DA
 {
-	class DA
+	public class DA : iRepo
 	{
+		public void AddNewStoreToy()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void UpdateStoreToyStatus()
+		{
+			throw new NotImplementedException();
+		}
+
 	}
 }

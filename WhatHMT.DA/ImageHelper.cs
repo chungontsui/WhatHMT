@@ -6,16 +6,8 @@ using System.Threading.Tasks;
 
 namespace WhatHMT.DA
 {
-	public interface iRepo
+	public class ImageHelper
 	{
-		void UpdateStoreToyStatus();
-		void AddNewStoreToy();
-	}
-
-	public interface iDA
-	{
-		void SaveImage();
-		void GetImage();
 
 	}
 }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatHMT", "WhatHMT\WhatHMT.csproj", "{5439970C-EE33-472F-B140-6F20AB32A6E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatHMT.DA", "WhatHMT.DA\WhatHMT.DA.csproj", "{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatHMT.Test", "WhatHMT.Test\WhatHMT.Test.csproj", "{0C951222-5541-4555-B97B-FCC09E02AC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11E260CE-E98D-481A-BBF1-7AFB5A8FD335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C951222-5541-4555-B97B-FCC09E02AC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C951222-5541-4555-B97B-FCC09E02AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C951222-5541-4555-B97B-FCC09E02AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C951222-5541-4555-B97B-FCC09E02AC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0CB86A-A4D2-4A0F-AB55-4FD24A289986}
 	EndGlobalSection
 EndGlobal
