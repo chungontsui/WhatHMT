@@ -8,7 +8,7 @@ namespace WhatHMT.DA
 {
 	public class DA
 	{
-		public List<StoreToys> getStoreToysByStoreGuid(Guid StoreGuid)
+		public List<StoreToys> GetStoreToysByStoreGuid(Guid StoreGuid)
 		{
 			List<StoreToys> _result = new List<StoreToys>();
 			try
@@ -33,7 +33,7 @@ namespace WhatHMT.DA
 			}
 		}
 
-		public StoreToys addNewStoreToy(StoreToys newStoreToy)
+		public StoreToys AddNewStoreToy(StoreToys newStoreToy)
 		{
 			try
 			{
@@ -52,7 +52,7 @@ namespace WhatHMT.DA
 
 		}
 
-		public void updateStoreToys(StoreToys updateStoreToy)
+		public void UpdateStoreToys(StoreToys updateStoreToy)
 		{
 			try
 			{

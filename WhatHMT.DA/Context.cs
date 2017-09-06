@@ -9,9 +9,9 @@ namespace WhatHMT.DA
 {
 	public class Context:DbContext
 	{
-		public Context():base("HMTDatabase")
+		public Context(string connStr = "HMTDatabase") :base(connStr)
 		{
-
+			
 		}
 
 		public virtual DbSet<StoreToys> dsStoreToys { get; set; }
