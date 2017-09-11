@@ -7,6 +7,14 @@ namespace WhatHMT.Test
 {
     public class DA_Test
     {
+		private 
+
+		[SetUp]
+		public void Setup()
+		{
+
+		}
+
 		[Test]
 		public void CanSaveImages()
 		{

@@ -28,4 +28,8 @@ namespace WhatHMT.DA
 		public string ImageName { get; set; }
 	}
 
+	public enum DB_Type {
+		Test,
+		Azure
+	}
 }
